@@ -1,24 +1,22 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repo\\school\\SchoolService\\SchoolService.csproj": {}
+    "D:\\repo\\SchoolService\\SchoolService.csproj": {}
   },
   "projects": {
-    "D:\\repo\\school\\SchoolService\\SchoolService.csproj": {
+    "D:\\repo\\SchoolService\\SchoolService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repo\\school\\SchoolService\\SchoolService.csproj",
+        "projectUniqueName": "D:\\repo\\SchoolService\\SchoolService.csproj",
         "projectName": "SchoolService",
-        "projectPath": "D:\\repo\\school\\SchoolService\\SchoolService.csproj",
+        "projectPath": "D:\\repo\\SchoolService\\SchoolService.csproj",
         "packagesPath": "C:\\Users\\ccast\\.nuget\\packages\\",
-        "outputPath": "D:\\repo\\school\\SchoolService\\obj\\",
+        "outputPath": "D:\\repo\\SchoolService\\obj\\",
         "projectStyle": "PackageReference",
-        "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "D:\\repo\\NuGet.Config",
           "C:\\Users\\ccast\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -27,6 +25,8 @@
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -36,7 +36,6 @@
           }
         },
         "warningProperties": {
-          "allWarningsAsErrors": true,
           "warnAsError": [
             "NU1605"
           ]
@@ -48,104 +47,46 @@
           "dependencies": {
             "EFCore.NamingConventions": {
               "target": "Package",
-              "version": "[8.0.0-rc.2, )",
-              "versionCentrallyManaged": true
+              "version": "(, )"
             },
             "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
               "target": "Package",
-              "version": "[8.0.0, )",
-              "versionCentrallyManaged": true
+              "version": "(, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.0, )",
-              "versionCentrallyManaged": true
+              "version": "(, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )",
-              "versionCentrallyManaged": true
+              "version": "(, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[8.0.0, )",
-              "versionCentrallyManaged": true
+              "version": "(, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[8.0.0, )",
-              "versionCentrallyManaged": true
+              "version": "(, )"
             },
             "Npgsql": {
               "target": "Package",
-              "version": "[8.0.1, )",
-              "versionCentrallyManaged": true
+              "version": "(, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[8.0.0, )",
-              "versionCentrallyManaged": true
+              "version": "(, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
               "target": "Package",
-              "version": "[1.1.0, )",
-              "versionCentrallyManaged": true
+              "version": "(, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.5.0, )",
-              "versionCentrallyManaged": true
+              "version": "(, )"
             }
-          },
-          "centralPackageVersions": {
-            "Ardalis.GuardClauses": "[4.2.0, )",
-            "Ardalis.HttpClientTestExtensions": "[4.2.0, )",
-            "Ardalis.ListStartupServices": "[1.1.4, )",
-            "Ardalis.Result": "[7.2.0, )",
-            "Ardalis.Result.AspNetCore": "[7.2.0, )",
-            "Ardalis.SharedKernel": "[1.4.0, )",
-            "Ardalis.SmartEnum": "[7.0.0, )",
-            "Ardalis.Specification": "[8.0.0, )",
-            "Ardalis.Specification.EntityFrameworkCore": "[8.0.0, )",
-            "Autofac": "[7.1.0, )",
-            "Autofac.Extensions.DependencyInjection": "[8.0.0, )",
-            "coverlet.collector": "[6.0.0, )",
-            "EFCore.NamingConventions": "[8.0.0-rc.2, )",
-            "FastEndpoints": "[5.20.0, )",
-            "FastEndpoints.ApiExplorer": "[2.2.0, )",
-            "FastEndpoints.Swagger": "[5.20.0, )",
-            "FastEndpoints.Swagger.Swashbuckle": "[2.2.0, )",
-            "FluentAssertions": "[6.12.0, )",
-            "MailKit": "[4.3.0, )",
-            "MediatR": "[12.2.0, )",
-            "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": "[8.0.0, )",
-            "Microsoft.AspNetCore.Mvc.Testing": "[8.0.0, )",
-            "Microsoft.EntityFrameworkCore": "[8.0.0, )",
-            "Microsoft.EntityFrameworkCore.InMemory": "[8.0.0, )",
-            "Microsoft.EntityFrameworkCore.Relational": "[8.0.0, )",
-            "Microsoft.EntityFrameworkCore.Sqlite": "[8.0.0, )",
-            "Microsoft.EntityFrameworkCore.SqlServer": "[8.0.0, )",
-            "Microsoft.EntityFrameworkCore.Tools": "[8.0.0, )",
-            "Microsoft.Extensions.Configuration": "[8.0.0, )",
-            "Microsoft.Extensions.Logging.Abstractions": "[8.0.0, )",
-            "Microsoft.ML": "[2.0.0, )",
-            "Microsoft.ML.FastTree": "[2.0.0, )",
-            "Microsoft.ML.LightGbm": "[2.0.0, )",
-            "Microsoft.NET.Test.Sdk": "[17.8.0, )",
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": "[8.0.0, )",
-            "Npgsql": "[8.0.1, )",
-            "Npgsql.EntityFrameworkCore.PostgreSQL": "[8.0.0, )",
-            "Npgsql.EntityFrameworkCore.PostgreSQL.Design": "[1.1.0, )",
-            "NSubstitute": "[5.1.0, )",
-            "ReportGenerator": "[5.2.0, )",
-            "Serilog.AspNetCore": "[8.0.0, )",
-            "SQLite": "[3.13.0, )",
-            "Swashbuckle.AspNetCore": "[6.5.0, )",
-            "Swashbuckle.AspNetCore.Annotations": "[6.5.0, )",
-            "xunit": "[2.6.2, )",
-            "xunit.runner.visualstudio": "[2.5.4, )"
           },
           "imports": [
             "net461",
